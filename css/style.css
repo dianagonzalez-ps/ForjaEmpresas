@@ -192,11 +192,9 @@ body{
 
 .signos{
     display: flex;
-    justify-content: space-around;
     align-items: baseline;
     background-color: rgba(240, 240, 240, 0.8);
-    height: 30rem;
-    
+    height: 30rem;    
 
 }
 
@@ -230,6 +228,30 @@ body{
     width: 180px;
 }
 
+#services {
+    background-color: #0b0a22;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+#services p{
+    padding: 1rem 0;
+    padding-left: 0.5rem;
+    border-bottom: 10px solid var(--white-color);
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+footer{
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p{
+    color: var(--white-color)
+
+}
 /*------------Login--------------*/
 
 #login{
@@ -270,9 +292,7 @@ body{
 .form-group{
     margin-bottom: 5px;
     width: 400px;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 
 .form-label{
