@@ -18,6 +18,8 @@ body{
     --orange2-color:#c45414;
     --blue-color:#1D1B45;
     --blue2-color:#2b6c8a;
+    --blue3-color: #32a6bb;
+    --blue4-color:#050c25;
     --black-color:#000000;
 }
 
@@ -479,7 +481,7 @@ footer p{
     width: 300px;
     height: 30px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-right: 15px;
 }
 
@@ -496,7 +498,7 @@ footer p{
     text-align: end;
     opacity: 30%;
     transform: rotate(10deg);
-    position: relative; bottom: 50px;
+    position: relative; top: 0.4px;
     margin-right: 20px;   
 }
 
@@ -607,7 +609,7 @@ footer p{
     width: 300px;
     height: 30px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-right: 15px;
 }
 
@@ -631,7 +633,7 @@ footer p{
 .franja2 img{
     width: 100%;
     margin-top: -28px;
-    margin-bottom: -98px;  
+    margin-bottom: -87px;  
 }
 
 .alert{
@@ -677,13 +679,159 @@ footer p{
     border: 0.8px solid var(--silver-color);
 }
 
-
 .alert p{
     font-size: 23px;
     text-align: center;
     color: rgb(99, 89, 89);
+}
+
+/*-------------Pacientes-----------*/
+
+
+.head2{
+    background-color: rgb(43, 43, 44);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.head2 img{
+    width: 240px;
+    height: 60px;
+    margin: 5px;
+}
+
+.icons_pacientes{
+    margin-right: 15px;
+}
+
+.head2 i{
+    font-size: 22px;
+    color: var(--black-color);
+    background-color: rgb(204, 202, 202);
+    border-radius: 50%;
+    border: solid var(--blue2-color);
+    padding: 0.5rem 0.5rem;
+    margin-right: 10px;
+}
+
+.franja3 img{
+    width: 100%;
+    border-bottom: 4px solid var(--blue2-color);
+    
+}
+
+.buttons_pacientes{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 6rem;
+    margin-right: 4.5rem;
+    margin-top: 60px;
 
 }
+
+.btn_table{
+    width: 110px;
+    height: 35px;
+    font-size:12px;
+    font-weight: 600;
+    background-color: var(--orange2-color);
+    border-radius: 10px;
+    color: var(--white-color);
+    border: solid var(--orange2-color);
+}
+
+.btn_table i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.search_2 i{
+    font-size: 17px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 6px 15px;
+    border: solid var(--blue3-color);
+    border-radius: 8px;
+}
+
+.form-table{
+    border-radius: 10px;
+    border: 2px solid var(--blue3-color);
+    padding: 5px;
+}
+
+.text_pacientes{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--blue-color);
+    text-decoration: var(--blue2-color) underline; 
+}
+
+
+.table table, th, td{
+    border-collapse: collapse;
+    border: 2px solid var(--blue3-color);
+    padding: 0.5rem 3rem;
+    margin: 30px;
+    margin-left: 5.8rem;
+    margin-bottom: 5rem;
+    background-color: #c4c4c4;
+}
+
+th{
+    background-color: var(--blue4-color);
+    color: var(--white-color);
+    padding: 15px;
+    font-size: 14px;
+}
+
+td{
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn2table{
+    background-color: var(--blue3-color);
+    width: 83px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid var(--blue3-color);
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+    margin-right: 8px;
+}
+
+.btn2table i{
+    margin-left: 5px;
+}
+
+.btn3_table{
+    background-color: var(--red-color);
+    width: 83px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid var(--red-color);
+    font-weight: 500;
+    color: var(--white-color);
+    padding-bottom: 1.5rem;
+}
+
+.btn3_table i{
+    margin-left: 5px;
+}
+
+.foot_2{
+    padding: 1rem;
+    font-size: 12px;
+}
+
+
+
+
+
 /*.box{
     background-color: #0b0a22;
     display: flex;
