@@ -13,6 +13,8 @@ body{
     --red-color:#A40101;
     --acuamarine-color:rgb(44, 162, 170);
     --silver-color:#ac9e9e;
+    --silver2-color:#d3d3d3;
+    --silver3-color:#6d6d6d;
     --white-color:#FFFFFF;
     --orange-color:#F3610E;
     --orange2-color:#c45414;
@@ -828,6 +830,166 @@ td{
     font-size: 12px;
 }
 
+/*-----------Formulario------------*/
+
+#new_user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle_registrer_form{
+    border: solid var(--blue-color);
+    display: flex;
+    margin: 30px 30px;
+    margin-bottom: 25px;
+    justify-content: center;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    color: var(--white-color);
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.registrer_form{
+    background-color: var(--silver2-color);
+    border: 2px solid var(--silver-color);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.form_border{
+    border: 2px solid var(--silver-color);
+    padding: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.data_date input{
+    border: 2px solid var(--blue3-color);
+    border-radius: 5px;
+    width: 210px;
+    height: 42px;
+    color: var(--silver-color);
+    font-size: 15px;
+    margin-top: 1rem;
+    padding-left: 8px;   
+}
+
+.tittle_data{
+    background-color: var(--blue3-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.8rem 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid var(--blue2-color);  
+}
+
+.tittle_data h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white-color);
+    margin: 0.3rem auto;
+}
+
+.tittle_data i{
+    margin-left: 1.5rem;
+    font-size: 22px;
+    
+}
+
+.data_patient input{
+    border: 2px solid var(--blue3-color);
+    border-radius: 5px;
+    width: 500px;
+    height: 42px;
+    margin: 20px;
+    margin-left: 30px;
+    color: var(--silver-color);
+    font-size: 15px;
+    padding-left: 8px;
+
+
+}
+
+.data_patient select{
+    border: 2px solid var(--blue3-color);
+    border-radius: 5px;
+    width: 500px;
+    height: 42px;
+    margin: 20px;
+    margin-left: 30px;
+    color: var(--silver-color);
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.data2_patient select{
+    border: 2px solid var(--blue3-color);
+    border-radius: 5px;
+    width: 330px;
+    height: 42px;
+    margin: 20px;
+    color: var(--silver-color);
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 8px; 
+}
+
+.data2_patient input{
+    border: 2px solid var(--blue3-color);
+    border-radius: 5px;
+    width: 330px;
+    height: 42px;
+    margin: 20px;
+    color: var(--silver-color);
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 8px; 
+  
+}
+
+.text_prueba{
+    font-size: 15px;
+    color: var(--silver3-color);
+}
+
+.test-covid{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.test-covid input{
+    margin: 10px;
+}
+
+.btn_save{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn_save button{
+    width: 150px;
+    height: 40px;
+    background-color: var(--orange2-color);
+    border-radius: 10px;
+    border: solid var(--orange2-color);
+}
+
+.btn_save a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 400;
+
+
+}
 
 
 
