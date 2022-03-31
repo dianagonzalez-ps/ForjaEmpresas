@@ -25,7 +25,7 @@ body{
     --black-color:#000000;
 }
 
-.head1{
+.encabezado{
     display: flex;
     margin: 5px;
     justify-content:end;
@@ -690,14 +690,14 @@ footer p{
 /*-------------Pacientes-----------*/
 
 
-.head2{
+.forja_head{
     background-color: rgb(43, 43, 44);
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
 
-.head2 img{
+.forja_head img{
     width: 240px;
     height: 60px;
     margin: 5px;
@@ -707,7 +707,7 @@ footer p{
     margin-right: 15px;
 }
 
-.head2 i{
+.forja_head i{
     font-size: 22px;
     color: var(--black-color);
     background-color: rgb(204, 202, 202);
