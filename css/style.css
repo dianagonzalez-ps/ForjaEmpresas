@@ -650,6 +650,7 @@ footer p{
     position: absolute; margin-top: 140px; margin-left: 500px;
 }
 
+
 .alert img{
     width: 200px;
     margin-left: 60px;
@@ -657,6 +658,8 @@ footer p{
 }
 
 .buttons2{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
@@ -668,8 +671,10 @@ footer p{
     width: 100px;
     height: 40px;
     padding: 6px;
+    margin-right: 10px;
     border-radius: 8%;
     border: 0.8px solid var(--silver-color);
+    cursor: pointer
 }
 
 .btn-alert2{
@@ -680,6 +685,7 @@ footer p{
     padding: 6px;
     border-radius: 8%;
     border: 0.8px solid var(--silver-color);
+    cursor: pointer;
 }
 
 .alert p{
