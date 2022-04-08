@@ -749,6 +749,7 @@ footer p{
     border-radius: 10px;
     color: var(--white-color);
     border: solid var(--orange2-color);
+    cursor: pointer;
 }
 
 .btn_table i{
